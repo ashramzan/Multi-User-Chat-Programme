@@ -13,14 +13,14 @@ namespace Client
 {
     public partial class Form1 : Form
     {
-        const int portNo = 20000;
-        TcpClient client;
-        byte[] data;
+
         public Form1()
         {
             InitializeComponent();
         }
-
+        const int portNo = 40000;
+        TcpClient client;
+        byte[] data;
         private void Form1_Load(object sender, EventArgs e)
         {
 

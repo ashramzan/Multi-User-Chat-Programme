@@ -41,26 +41,26 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(13, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 13);
+            this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Nick:";
+            this.label1.Text = "Nickname:";
             // 
             // txtNick
             // 
-            this.txtNick.Location = new System.Drawing.Point(63, 25);
+            this.txtNick.Location = new System.Drawing.Point(77, 27);
             this.txtNick.Name = "txtNick";
             this.txtNick.Size = new System.Drawing.Size(100, 20);
             this.txtNick.TabIndex = 1;
             // 
             // BtnSignIn
             // 
-            this.BtnSignIn.Click += new System.EventHandler(this.BtnSignIn_Click);
-            this.BtnSignIn.Location = new System.Drawing.Point(240, 25);
+            this.BtnSignIn.Location = new System.Drawing.Point(243, 25);
             this.BtnSignIn.Name = "BtnSignIn";
             this.BtnSignIn.Size = new System.Drawing.Size(75, 23);
             this.BtnSignIn.TabIndex = 2;
             this.BtnSignIn.Text = "Sign In";
             this.BtnSignIn.UseVisualStyleBackColor = true;
+            this.BtnSignIn.Click += new System.EventHandler(this.BtnSignIn_Click);
             // 
             // txtMessageHistory
             // 
@@ -74,7 +74,7 @@
             // 
             // txtMessage
             // 
-            this.txtMessage.Location = new System.Drawing.Point(16, 408);
+            this.txtMessage.Location = new System.Drawing.Point(16, 405);
             this.txtMessage.Name = "txtMessage";
             this.txtMessage.Size = new System.Drawing.Size(208, 20);
             this.txtMessage.TabIndex = 4;
@@ -82,13 +82,13 @@
             // BtnSend
             // 
             this.BtnSend.Enabled = false;
-            this.BtnSend.Click += new System.EventHandler(this.BtnSend_Click);
-            this.BtnSend.Location = new System.Drawing.Point(240, 405);
+            this.BtnSend.Location = new System.Drawing.Point(243, 403);
             this.BtnSend.Name = "BtnSend";
             this.BtnSend.Size = new System.Drawing.Size(75, 23);
             this.BtnSend.TabIndex = 5;
             this.BtnSend.Text = "Send";
             this.BtnSend.UseVisualStyleBackColor = true;
+            this.BtnSend.Click += new System.EventHandler(this.BtnSend_Click);
             // 
             // Form1
             // 

@@ -11,22 +11,17 @@ namespace ChatServer
 {
     class Program
     {
-        const int portNo = 20000;
+        const int portNo = 40000;
         static void Main(string[] args)
         {
-
-            // creates a local ip address for server
             System.Net.IPAddress localAdd =
-                System.Net.IPAddress.Parse("127.0.0.1");
-
-            // creates a tcp listener and starts listening
+            System.Net.IPAddress.Parse("127.0.0.1");
             TcpListener listener = new TcpListener(localAdd, portNo);
             listener.Start();
-
             while (true)
             {
-                TcpClient client = listener.AcceptTcpClient();
-                ChatClient user = new ChatClient(client);
+            ChatClient user = new
+            ChatClient(listener.AcceptTcpClient());
             }
         }
     }
