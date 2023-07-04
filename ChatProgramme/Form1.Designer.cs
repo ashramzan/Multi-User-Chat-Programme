@@ -64,6 +64,7 @@
             // 
             // txtMessageHistory
             // 
+            this.txtMessageHistory.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.txtMessageHistory.Location = new System.Drawing.Point(16, 70);
             this.txtMessageHistory.Multiline = true;
             this.txtMessageHistory.Name = "txtMessageHistory";
@@ -94,6 +95,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(337, 450);
             this.Controls.Add(this.BtnSend);
             this.Controls.Add(this.txtMessage);
